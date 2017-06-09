@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		B490AD521EE784F00016EBD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490AD511EE784F00016EBD4 /* AppDelegate.swift */; };
 		B490AD541EE784F00016EBD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490AD531EE784F00016EBD4 /* ViewController.swift */; };
-		B490AD571EE784F00016EBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B490AD551EE784F00016EBD4 /* Main.storyboard */; };
 		B490AD591EE784F00016EBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B490AD581EE784F00016EBD4 /* Assets.xcassets */; };
 		B490AD5C1EE784F00016EBD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B490AD5A1EE784F00016EBD4 /* LaunchScreen.storyboard */; };
 		B490AD641EE7924A0016EBD4 /* AddDooooVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490AD631EE7924A0016EBD4 /* AddDooooVC.swift */; };
+		B490AD951EE9F2780016EBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B490AD931EE9F2780016EBD4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B490AD4E1EE784F00016EBD4 /* ToDoooo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoooo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B490AD511EE784F00016EBD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B490AD531EE784F00016EBD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B490AD561EE784F00016EBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B490AD581EE784F00016EBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B490AD5B1EE784F00016EBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B490AD5D1EE784F00016EBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B490AD631EE7924A0016EBD4 /* AddDooooVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDooooVC.swift; sourceTree = "<group>"; };
+		B490AD941EE9F2780016EBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				B490AD651EE7AC480016EBD4 /* Supporting Files */,
-				B490AD551EE784F00016EBD4 /* Main.storyboard */,
 				B490AD531EE784F00016EBD4 /* ViewController.swift */,
 				B490AD631EE7924A0016EBD4 /* AddDooooVC.swift */,
+				B490AD931EE9F2780016EBD4 /* Main.storyboard */,
 			);
 			path = ToDoooo;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B490AD951EE9F2780016EBD4 /* Main.storyboard in Resources */,
 				B490AD5C1EE784F00016EBD4 /* LaunchScreen.storyboard in Resources */,
 				B490AD591EE784F00016EBD4 /* Assets.xcassets in Resources */,
-				B490AD571EE784F00016EBD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,20 +157,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B490AD551EE784F00016EBD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B490AD561EE784F00016EBD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B490AD5A1EE784F00016EBD4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B490AD5B1EE784F00016EBD4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B490AD931EE9F2780016EBD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B490AD941EE9F2780016EBD4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +316,7 @@
 				B490AD621EE784F00016EBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,11 +21,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         toDoList.dataSource = self
     }
     
-    func addToDo(txt: String) {
-        todos.append(txt)
-        toDoList.reloadData()
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todos.count
     }
@@ -43,6 +38,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 addDoVC.delegate = self
             }
         }
+    }
+    
+    func addToDo(txt: String) {
+        todos.append(txt)
+        toDoList.reloadData()
     }
 
 }
